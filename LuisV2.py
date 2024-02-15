@@ -5,6 +5,8 @@ from discord import FFmpegPCMAudio
 from discord.ext import commands
 from openai import OpenAI
 
+#poop
+
 #API keys (necessary for authenticating your requests to the API)
 openai.api_key = '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' 
 
