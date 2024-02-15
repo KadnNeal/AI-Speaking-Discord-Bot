@@ -6,7 +6,7 @@ from discord.ext import commands
 from openai import OpenAI
 
 #API keys (necessary for authenticating your requests to the API)
-openai.api_key = os.getenv('PENAI_API_KEY')
+openai.api_key = os.getenv('OPENAI_API_KEY')
 discord_token = os.getenv('DISCORD_TOKEN')
 
 #clip and turn users audio to an audio file
