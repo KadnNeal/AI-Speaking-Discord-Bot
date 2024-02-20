@@ -1,0 +1,27 @@
+""
+openai.api_key = os.getenv('OPENAI_API_KEY')
+"""
+discord_token = os.getenv('DISCORD_TOKEN')
+
+"""
+response = openai.Completion.create(
+  engine="text-davinci-003",  #specifies gpt model 
+  prompt="What is the capital of France?", 
+  temperature=0.7, #controls randomness of text, higher means more diversity, 0.7 balanced
+  max_tokens=60, #max length of generated response
+  top_p=1.0, #
+  frequency_penalty=0.0, #both f&p pen is likliness to repeat same line
+  presence_penalty=0.0
+)
+"""
+
+#from openai import OpenAI
+
+#API keys (necessary for authenticating your requests to the API)
+
+
+#clip and turn users audio to an audio file
+
+#use openai whisper to turn audio file to text
+
+#use chatgpt to generate response
