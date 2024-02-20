@@ -8,7 +8,9 @@ from dotenv import load_dotenv
 
 #load environmental variables from keys.env
 load_dotenv()
+
 discord_token = os.getenv('DISCORD_TOKEN')
+openai_key = os.getenv('OPENAI_API_KEY')
 
 # Define intents
 intents = discord.Intents.all()
@@ -58,4 +60,4 @@ async def leave(arg):
   else:
     await arg.send("I am not in a voice channel")
 
-bot.run('MTIwNDU4ODc2OTcyMjg5NjM5NA.GgwP-M.DMv3-OGChDrCRZ_h78ZTp-p6BQTyh2DarVcUgY')
+bot.run('MTIwNDU4ODc2OTcyMjg5NjM5NA.GPYNqC.N8vmgL4gklyXAHhuu4HhkQ0CEU3JCDyJPAgb04')
